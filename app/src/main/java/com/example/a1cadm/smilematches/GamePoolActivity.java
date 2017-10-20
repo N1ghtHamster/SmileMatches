@@ -14,7 +14,7 @@ public class GamePoolActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.gamepool);
 
-        while (player > 0 && player <= 5 && comp > 0 && comp <= 5) {
+        /*while (player > 0 && player <= 5 && comp > 0 && comp <= 5) {
             int playerget = numMaik(player);
 
             int compget = cRandom(comp + 1);
@@ -53,7 +53,7 @@ public class GamePoolActivity extends AppCompatActivity {
                 JOptionPane.showMessageDialog(null, "Comp Win!!!!!!");
                 break;
             }
-        }
+        }*/
 
     }
 

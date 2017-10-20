@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_green_light"
+    android:background="@color/colorPrimaryDark"
     tools:context="com.example.a1cadm.smilematches.StatistikActivity">
 
     <TextView
@@ -14,8 +14,8 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="130dp"
-        android:text="Total Round"
-        android:textColor="@android:color/holo_purple"
+        android:text="Total Rounds"
+        android:textColor="@android:color/darker_gray"
         android:textSize="15sp"
         app:layout_constraintHorizontal_bias="0.213"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -30,7 +30,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginTop="16dp"
         android:text="Total Win Player"
-        android:textColor="@android:color/holo_red_dark"
+        android:textColor="@android:color/darker_gray"
         android:textSize="15sp"
         app:layout_constraintHorizontal_bias="0.235"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -45,7 +45,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginTop="16dp"
         android:text="Total Win Comp"
-        android:textColor="@android:color/holo_red_light"
+        android:textColor="@android:color/darker_gray"
         android:textSize="15sp"
         app:layout_constraintHorizontal_bias="0.234"
         app:layout_constraintLeft_toLeftOf="parent"

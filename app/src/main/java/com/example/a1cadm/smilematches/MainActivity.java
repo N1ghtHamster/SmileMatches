@@ -8,8 +8,8 @@ package com.example.a1cadm.smilematches;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    Button bnGame;
-    Button bStatistic;
+    Button bnGame, bStatistic;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -19,23 +19,23 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         bStatistic = (Button) findViewById(R.id.bStatistic);
 
     }
-
-
     // Метод обработки нажатия на кнопку
     public void onClick(View v) {
-        Intent intent = new Intent(this, GamePoolActivity.class);
-        startActivity(intent);
         // по id определеяем кнопку, вызвавшую этот обработчик
-        /*switch (v.getId()) {
+        switch (v.getId()) {
             case R.id.bnGame:
-                // кнопка ОК
-                tvOut.setText("Нажата кнопка ОК");
+                // кнопка New Game
+                Intent intent = new Intent(this, GamePoolActivity.class);
+                startActivity(intent);
+                //tvOut.setText("Нажата кнопка ОК");
                 break;
             case R.id.bStatistic:
-                // кнопка Cancel
-                tvOut.setText("Нажата кнопка Cancel");
+                // кнопка Statistic
+                Intent intent1 = new Intent(this, StatistikActivity.class);
+                startActivity(intent1);
+                //tvOut.setText("Нажата кнопка Cancel");
                 break;
-        }*/
+        }
     }
 }
 

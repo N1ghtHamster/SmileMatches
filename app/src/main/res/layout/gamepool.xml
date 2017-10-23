@@ -66,7 +66,7 @@
             android:layout_marginStart="15dp"
             android:layout_marginTop="0dp"
             android:layout_weight="0.5"
-            android:background="@android:color/holo_blue_bright"
+            android:background="@mipmap/match_1"
             android:text="0"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -82,7 +82,7 @@
             android:layout_marginStart="15dp"
             android:layout_marginTop="0dp"
             android:layout_weight="0.5"
-            android:background="@android:color/holo_blue_bright"
+            android:background="@mipmap/match_1"
             android:text="1"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -97,23 +97,10 @@
             android:layout_marginLeft="15dp"
             android:layout_marginStart="15dp"
             android:layout_weight="0.5"
-            android:background="@android:color/holo_blue_dark"
+            android:background="@mipmap/match_1"
             android:text="2"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toRightOf="@+id/bM1" />
-
-        <Button
-            android:id="@+id/bM4"
-            android:layout_width="20dp"
-            android:layout_height="match_parent"
-            android:layout_marginBottom="0dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginStart="15dp"
-            android:layout_weight="0.5"
-            android:background="@android:color/holo_green_dark"
-            android:text="4"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toRightOf="@+id/bM3" />
 
         <Button
             android:id="@+id/bM3"
@@ -123,10 +110,23 @@
             android:layout_marginLeft="15dp"
             android:layout_marginStart="15dp"
             android:layout_weight="0.5"
-            android:background="@android:color/holo_blue_dark"
+            android:background="@mipmap/match_1"
             android:text="3"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toRightOf="@+id/bM2" />
+
+        <Button
+            android:id="@+id/bM4"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_weight="0.5"
+            android:background="@mipmap/match_1"
+            android:text="4"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/bM3" />
 
         <Button
             android:id="@+id/bM5"
@@ -136,7 +136,7 @@
             android:layout_marginLeft="15dp"
             android:layout_marginStart="15dp"
             android:layout_weight="0.5"
-            android:background="@android:color/holo_green_light"
+            android:background="@mipmap/match_1"
             android:text="5"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toRightOf="@+id/bM4" />
@@ -152,11 +152,14 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <Button
-            android:id="@+id/button14"
+        <TextView
+            android:id="@+id/tVPlayer"
             android:layout_width="match_parent"
-            android:layout_height="38dp"
-            android:text="X" />
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:textDirection="locale"
+            android:textIsSelectable="false"
+            android:textSize="24sp" />
 
         <Button
             android:id="@+id/button16"
@@ -164,11 +167,12 @@
             android:layout_height="38dp"
             android:text="Score" />
 
-        <Button
-            android:id="@+id/button15"
+        <TextView
+            android:id="@+id/textView2"
             android:layout_width="match_parent"
-            android:layout_height="38dp"
-            android:text="Y" />
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
     </LinearLayout>
 
     <LinearLayout

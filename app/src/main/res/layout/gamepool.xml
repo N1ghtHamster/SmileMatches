@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/fon"
-    tools:context="com.example.a1cadm.smilematches.MainActivity">
+    android:background="@mipmap/match_7">
 
     <LinearLayout
         android:layout_width="203dp"
@@ -45,133 +44,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="PlGuess" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="200dp"
-        android:layout_height="60dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="8dp"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent">
-
-        <Button
-            android:id="@+id/bM0"
-            android:layout_width="20dp"
-            android:layout_height="match_parent"
-            android:layout_marginBottom="0dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginStart="15dp"
-            android:layout_marginTop="0dp"
-            android:layout_weight="0.5"
-            android:background="@mipmap/match_1"
-            android:text="0"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="1.0" />
-
-        <Button
-            android:id="@+id/bM1"
-            android:layout_width="20dp"
-            android:layout_height="match_parent"
-            android:layout_marginBottom="0dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginStart="15dp"
-            android:layout_marginTop="0dp"
-            android:layout_weight="0.5"
-            android:background="@mipmap/match_1"
-            android:text="1"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="1.0" />
-
-        <Button
-            android:id="@+id/bM2"
-            android:layout_width="20dp"
-            android:layout_height="match_parent"
-            android:layout_marginBottom="0dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginStart="15dp"
-            android:layout_weight="0.5"
-            android:background="@mipmap/match_1"
-            android:text="2"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toRightOf="@+id/bM1" />
-
-        <Button
-            android:id="@+id/bM3"
-            android:layout_width="20dp"
-            android:layout_height="match_parent"
-            android:layout_marginBottom="0dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginStart="15dp"
-            android:layout_weight="0.5"
-            android:background="@mipmap/match_1"
-            android:text="3"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toRightOf="@+id/bM2" />
-
-        <Button
-            android:id="@+id/bM4"
-            android:layout_width="20dp"
-            android:layout_height="match_parent"
-            android:layout_marginBottom="0dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginStart="15dp"
-            android:layout_weight="0.5"
-            android:background="@mipmap/match_1"
-            android:text="4"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toRightOf="@+id/bM3" />
-
-        <Button
-            android:id="@+id/bM5"
-            android:layout_width="20dp"
-            android:layout_height="match_parent"
-            android:layout_marginBottom="0dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginStart="15dp"
-            android:layout_weight="0.5"
-            android:background="@mipmap/match_1"
-            android:text="5"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toRightOf="@+id/bM4" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="71dp"
-        android:layout_height="116dp"
-        android:layout_marginLeft="297dp"
-        android:layout_marginTop="205dp"
-        android:orientation="vertical"
-        android:visibility="visible"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <TextView
-            android:id="@+id/tVPlayer"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="5"
-            android:textDirection="locale"
-            android:textIsSelectable="false"
-            android:textSize="24sp" />
-
-        <Button
-            android:id="@+id/button16"
-            android:layout_width="match_parent"
-            android:layout_height="38dp"
-            android:text="Score" />
-
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="TextView" />
 
     </LinearLayout>
 
@@ -380,6 +252,141 @@
             android:layout_weight="0.02"
             android:text="10" />
 
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="66dp"
+        android:layout_height="98dp"
+        android:layout_marginLeft="306dp"
+        android:layout_marginTop="208dp"
+        android:orientation="vertical"
+        android:visibility="visible"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tVPlayer"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:background="@mipmap/match_4"
+            android:text="5"
+            android:textAlignment="center"
+            android:textDirection="locale"
+            android:textIsSelectable="false"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:background="@mipmap/match_6"
+            android:text="SCORE"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+        <TextView
+            android:id="@+id/tVComp"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:background="@mipmap/match_5"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="7dp"
+        android:layout_marginLeft="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent">
+
+        <Button
+            android:id="@+id/bM0"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="0.5"
+            android:background="@mipmap/match_1"
+            android:text="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/bM1"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="0.5"
+            android:background="@mipmap/match_1"
+            android:text="1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/bM2"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_weight="0.5"
+            android:background="@mipmap/match_1"
+            android:text="2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/bM1" />
+
+        <Button
+            android:id="@+id/bM3"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_weight="0.5"
+            android:background="@mipmap/match_1"
+            android:text="3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/bM2" />
+
+        <Button
+            android:id="@+id/bM4"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_weight="0.5"
+            android:background="@mipmap/match_1"
+            android:text="4"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/bM3" />
+
+        <Button
+            android:id="@+id/bM5"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_weight="0.5"
+            android:background="@mipmap/match_1"
+            android:text="5"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/bM4" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
